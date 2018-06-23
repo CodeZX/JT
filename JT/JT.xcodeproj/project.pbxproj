@@ -7,25 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CFE7DAA20DC9D6B00CD653C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7DA920DC9D6B00CD653C /* AppDelegate.m */; };
-		3CFE7DAD20DC9D6B00CD653C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7DAC20DC9D6B00CD653C /* ViewController.m */; };
 		3CFE7DB020DC9D6B00CD653C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DAE20DC9D6B00CD653C /* Main.storyboard */; };
-		3CFE7DB220DC9D6C00CD653C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DB120DC9D6C00CD653C /* Assets.xcassets */; };
 		3CFE7DB520DC9D6C00CD653C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DB320DC9D6C00CD653C /* LaunchScreen.storyboard */; };
-		3CFE7DB820DC9D6C00CD653C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7DB720DC9D6C00CD653C /* main.m */; };
+		3CFE7DC120DC9F3300CD653C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7DC020DC9F3300CD653C /* AppDelegate.m */; };
+		3CFE7DC920DC9F4100CD653C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7DC520DC9F4100CD653C /* ViewController.m */; };
+		3CFE7DCE20DC9F4A00CD653C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DCB20DC9F4A00CD653C /* Assets.xcassets */; };
+		3CFE7DCF20DC9F4A00CD653C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7DCC20DC9F4A00CD653C /* main.m */; };
+		3CFE7DD020DC9F4A00CD653C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DCD20DC9F4A00CD653C /* Info.plist */; };
+		3CFE7DF820DCA09800CD653C /* Layer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DD320DCA09500CD653C /* Layer1.png */; };
+		3CFE7DF920DCA09800CD653C /* icon_落耳铃1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DD420DCA09500CD653C /* icon_落耳铃1.png */; };
+		3CFE7DFA20DCA09800CD653C /* icon_丝丝蝉鸣.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DD520DCA09500CD653C /* icon_丝丝蝉鸣.png */; };
+		3CFE7DFB20DCA09800CD653C /* icon_悠悠长笛1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DD620DCA09500CD653C /* icon_悠悠长笛1.png */; };
+		3CFE7DFC20DCA09800CD653C /* icon_清脆风铃1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DD720DCA09500CD653C /* icon_清脆风铃1.png */; };
+		3CFE7DFD20DCA09800CD653C /* button_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DD820DCA09500CD653C /* button_bg.png */; };
+		3CFE7DFE20DCA09800CD653C /* icon_雷声大作1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DD920DCA09500CD653C /* icon_雷声大作1.png */; };
+		3CFE7DFF20DCA09800CD653C /* icon_流水潺潺1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DDA20DCA09500CD653C /* icon_流水潺潺1.png */; };
+		3CFE7E0020DCA09800CD653C /* icon_拍岸潮汐.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DDB20DCA09500CD653C /* icon_拍岸潮汐.png */; };
+		3CFE7E0120DCA09800CD653C /* icon_星火燎原1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DDC20DCA09500CD653C /* icon_星火燎原1.png */; };
+		3CFE7E0220DCA09800CD653C /* icon_铁轨声1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DDD20DCA09500CD653C /* icon_铁轨声1.png */; };
+		3CFE7E0320DCA09800CD653C /* icon_檐落春雨1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DDE20DCA09500CD653C /* icon_檐落春雨1.png */; };
+		3CFE7E0420DCA09800CD653C /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DDF20DCA09500CD653C /* button.png */; };
+		3CFE7E0520DCA09800CD653C /* icon_黑白琴键.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DE020DCA09500CD653C /* icon_黑白琴键.png */; };
+		3CFE7E0620DCA09800CD653C /* icon_拍岸潮汐1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DE120DCA09500CD653C /* icon_拍岸潮汐1.png */; };
+		3CFE7E0720DCA09800CD653C /* icon_雷声大作.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DE220DCA09600CD653C /* icon_雷声大作.png */; };
+		3CFE7E0820DCA09800CD653C /* icon_星火燎原.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DE320DCA09600CD653C /* icon_星火燎原.png */; };
+		3CFE7E0920DCA09800CD653C /* icon_南风起.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DE420DCA09600CD653C /* icon_南风起.png */; };
+		3CFE7E0A20DCA09800CD653C /* icon_檐落春雨.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DE520DCA09600CD653C /* icon_檐落春雨.png */; };
+		3CFE7E0B20DCA09800CD653C /* icon_铁轨声.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DE620DCA09600CD653C /* icon_铁轨声.png */; };
+		3CFE7E0C20DCA09800CD653C /* Layer0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DE720DCA09600CD653C /* Layer0.png */; };
+		3CFE7E0D20DCA09800CD653C /* icon_流水潺潺.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DE820DCA09600CD653C /* icon_流水潺潺.png */; };
+		3CFE7E0E20DCA09800CD653C /* icon_黑白琴键1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DE920DCA09600CD653C /* icon_黑白琴键1.png */; };
+		3CFE7E0F20DCA09800CD653C /* icon_山间水滴.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DEA20DCA09600CD653C /* icon_山间水滴.png */; };
+		3CFE7E1020DCA09800CD653C /* icon_林间清晨1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DEB20DCA09600CD653C /* icon_林间清晨1.png */; };
+		3CFE7E1120DCA09800CD653C /* icon_乡村夜色1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DEC20DCA09600CD653C /* icon_乡村夜色1.png */; };
+		3CFE7E1220DCA09800CD653C /* icon_山间水滴1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DED20DCA09600CD653C /* icon_山间水滴1.png */; };
+		3CFE7E1320DCA09800CD653C /* icon_南风起1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DEE20DCA09700CD653C /* icon_南风起1.png */; };
+		3CFE7E1420DCA09800CD653C /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DEF20DCA09700CD653C /* bg.jpg */; };
+		3CFE7E1520DCA09800CD653C /* icon_落耳铃.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DF020DCA09700CD653C /* icon_落耳铃.png */; };
+		3CFE7E1620DCA09800CD653C /* icon_丝丝蝉鸣1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DF120DCA09700CD653C /* icon_丝丝蝉鸣1.png */; };
+		3CFE7E1720DCA09800CD653C /* but_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DF220DCA09700CD653C /* but_off.png */; };
+		3CFE7E1820DCA09800CD653C /* icon_悠悠长笛.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DF320DCA09700CD653C /* icon_悠悠长笛.png */; };
+		3CFE7E1920DCA09800CD653C /* but_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DF420DCA09700CD653C /* but_on.png */; };
+		3CFE7E1A20DCA09800CD653C /* icon_林间清晨.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DF520DCA09700CD653C /* icon_林间清晨.png */; };
+		3CFE7E1B20DCA09800CD653C /* icon_清脆风铃.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DF620DCA09700CD653C /* icon_清脆风铃.png */; };
+		3CFE7E1C20DCA09800CD653C /* icon_乡村夜色.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7DF720DCA09700CD653C /* icon_乡村夜色.png */; };
+		3CFE7E2020DCC09700CD653C /* JTtableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E1E20DCC09700CD653C /* JTtableViewCell.m */; };
+		3CFE7E2120DCC09700CD653C /* JTtableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E1F20DCC09700CD653C /* JTtableViewCell.xib */; };
+		3CFE7E2420DCC30500CD653C /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E2320DCC30500CD653C /* MusicModel.m */; };
+		3CFE7E2B20DCE76700CD653C /* 多云.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E2520DCE76600CD653C /* 多云.png */; };
+		3CFE7E2C20DCE76700CD653C /* 晴天.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E2620DCE76600CD653C /* 晴天.png */; };
+		3CFE7E2D20DCE76700CD653C /* 大雨.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E2720DCE76600CD653C /* 大雨.png */; };
+		3CFE7E2E20DCE76700CD653C /* 小雨.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E2820DCE76700CD653C /* 小雨.png */; };
+		3CFE7E2F20DCE76700CD653C /* 阴天.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E2920DCE76700CD653C /* 阴天.png */; };
+		3CFE7E3020DCE76700CD653C /* 雷阵雨.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E2A20DCE76700CD653C /* 雷阵雨.png */; };
+		3CFE7E3320DDE89600CD653C /* Babbling Brook.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E3220DDE89600CD653C /* Babbling Brook.mp3 */; };
+		3CFE7E3820DDED4100CD653C /* DryLawn Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E3420DDED4100CD653C /* DryLawn Fire.mp3 */; };
+		3CFE7E3920DDED4100CD653C /* Clear Chimes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E3520DDED4100CD653C /* Clear Chimes.mp3 */; };
+		3CFE7E3A20DDED4100CD653C /* Echo Chimes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E3620DDED4100CD653C /* Echo Chimes.mp3 */; };
+		3CFE7E3B20DDED4100CD653C /* Dusk Cicadas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E3720DDED4100CD653C /* Dusk Cicadas.mp3 */; };
+		3CFE7E3D20DDED4900CD653C /* Inside Train.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E3C20DDED4900CD653C /* Inside Train.mp3 */; };
+		3CFE7E3F20DDED5800CD653C /* Leisure Flute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E3E20DDED5800CD653C /* Leisure Flute.mp3 */; };
+		3CFE7E4120DDED8D00CD653C /* Low Tide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4020DDED8D00CD653C /* Low Tide.mp3 */; };
+		3CFE7E4320DDED9500CD653C /* Park Bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4220DDED9500CD653C /* Park Bird.mp3 */; };
+		3CFE7E4520DDED9F00CD653C /* Slient Piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4420DDED9F00CD653C /* Slient Piano.mp3 */; };
+		3CFE7E4720DDEDA600CD653C /* South Wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4620DDEDA600CD653C /* South Wind.mp3 */; };
+		3CFE7E4920DDEDAD00CD653C /* Spring Rainy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4820DDEDAD00CD653C /* Spring Rainy.mp3 */; };
+		3CFE7E4B20DDEDB600CD653C /* Thundering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4A20DDEDB600CD653C /* Thundering.mp3 */; };
+		3CFE7E4D20DDEDCC00CD653C /* Valley Drip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4C20DDEDCB00CD653C /* Valley Drip.mp3 */; };
+		3CFE7E4F20DDEDD300CD653C /* Village Night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4E20DDEDD300CD653C /* Village Night.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3CFE7DA520DC9D6A00CD653C /* JT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JT.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CFE7DA820DC9D6A00CD653C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3CFE7DA920DC9D6B00CD653C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3CFE7DAB20DC9D6B00CD653C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3CFE7DAC20DC9D6B00CD653C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3CFE7DAF20DC9D6B00CD653C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3CFE7DB120DC9D6C00CD653C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CFE7DB420DC9D6C00CD653C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3CFE7DB620DC9D6C00CD653C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CFE7DB720DC9D6C00CD653C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CFE7DBF20DC9F3300CD653C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CFE7DC020DC9F3300CD653C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CFE7DC520DC9F4100CD653C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CFE7DC620DC9F4100CD653C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CFE7DCB20DC9F4A00CD653C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CFE7DCC20DC9F4A00CD653C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CFE7DCD20DC9F4A00CD653C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFE7DD320DCA09500CD653C /* Layer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Layer1.png; sourceTree = "<group>"; };
+		3CFE7DD420DCA09500CD653C /* icon_落耳铃1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_落耳铃1.png"; sourceTree = "<group>"; };
+		3CFE7DD520DCA09500CD653C /* icon_丝丝蝉鸣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_丝丝蝉鸣.png"; sourceTree = "<group>"; };
+		3CFE7DD620DCA09500CD653C /* icon_悠悠长笛1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_悠悠长笛1.png"; sourceTree = "<group>"; };
+		3CFE7DD720DCA09500CD653C /* icon_清脆风铃1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_清脆风铃1.png"; sourceTree = "<group>"; };
+		3CFE7DD820DCA09500CD653C /* button_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg.png; sourceTree = "<group>"; };
+		3CFE7DD920DCA09500CD653C /* icon_雷声大作1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_雷声大作1.png"; sourceTree = "<group>"; };
+		3CFE7DDA20DCA09500CD653C /* icon_流水潺潺1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_流水潺潺1.png"; sourceTree = "<group>"; };
+		3CFE7DDB20DCA09500CD653C /* icon_拍岸潮汐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_拍岸潮汐.png"; sourceTree = "<group>"; };
+		3CFE7DDC20DCA09500CD653C /* icon_星火燎原1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_星火燎原1.png"; sourceTree = "<group>"; };
+		3CFE7DDD20DCA09500CD653C /* icon_铁轨声1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_铁轨声1.png"; sourceTree = "<group>"; };
+		3CFE7DDE20DCA09500CD653C /* icon_檐落春雨1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_檐落春雨1.png"; sourceTree = "<group>"; };
+		3CFE7DDF20DCA09500CD653C /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		3CFE7DE020DCA09500CD653C /* icon_黑白琴键.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_黑白琴键.png"; sourceTree = "<group>"; };
+		3CFE7DE120DCA09500CD653C /* icon_拍岸潮汐1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_拍岸潮汐1.png"; sourceTree = "<group>"; };
+		3CFE7DE220DCA09600CD653C /* icon_雷声大作.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_雷声大作.png"; sourceTree = "<group>"; };
+		3CFE7DE320DCA09600CD653C /* icon_星火燎原.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_星火燎原.png"; sourceTree = "<group>"; };
+		3CFE7DE420DCA09600CD653C /* icon_南风起.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_南风起.png"; sourceTree = "<group>"; };
+		3CFE7DE520DCA09600CD653C /* icon_檐落春雨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_檐落春雨.png"; sourceTree = "<group>"; };
+		3CFE7DE620DCA09600CD653C /* icon_铁轨声.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_铁轨声.png"; sourceTree = "<group>"; };
+		3CFE7DE720DCA09600CD653C /* Layer0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Layer0.png; sourceTree = "<group>"; };
+		3CFE7DE820DCA09600CD653C /* icon_流水潺潺.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_流水潺潺.png"; sourceTree = "<group>"; };
+		3CFE7DE920DCA09600CD653C /* icon_黑白琴键1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_黑白琴键1.png"; sourceTree = "<group>"; };
+		3CFE7DEA20DCA09600CD653C /* icon_山间水滴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_山间水滴.png"; sourceTree = "<group>"; };
+		3CFE7DEB20DCA09600CD653C /* icon_林间清晨1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_林间清晨1.png"; sourceTree = "<group>"; };
+		3CFE7DEC20DCA09600CD653C /* icon_乡村夜色1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_乡村夜色1.png"; sourceTree = "<group>"; };
+		3CFE7DED20DCA09600CD653C /* icon_山间水滴1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_山间水滴1.png"; sourceTree = "<group>"; };
+		3CFE7DEE20DCA09700CD653C /* icon_南风起1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_南风起1.png"; sourceTree = "<group>"; };
+		3CFE7DEF20DCA09700CD653C /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		3CFE7DF020DCA09700CD653C /* icon_落耳铃.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_落耳铃.png"; sourceTree = "<group>"; };
+		3CFE7DF120DCA09700CD653C /* icon_丝丝蝉鸣1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_丝丝蝉鸣1.png"; sourceTree = "<group>"; };
+		3CFE7DF220DCA09700CD653C /* but_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = but_off.png; sourceTree = "<group>"; };
+		3CFE7DF320DCA09700CD653C /* icon_悠悠长笛.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_悠悠长笛.png"; sourceTree = "<group>"; };
+		3CFE7DF420DCA09700CD653C /* but_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = but_on.png; sourceTree = "<group>"; };
+		3CFE7DF520DCA09700CD653C /* icon_林间清晨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_林间清晨.png"; sourceTree = "<group>"; };
+		3CFE7DF620DCA09700CD653C /* icon_清脆风铃.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_清脆风铃.png"; sourceTree = "<group>"; };
+		3CFE7DF720DCA09700CD653C /* icon_乡村夜色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_乡村夜色.png"; sourceTree = "<group>"; };
+		3CFE7E1D20DCC09700CD653C /* JTtableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTtableViewCell.h; sourceTree = "<group>"; };
+		3CFE7E1E20DCC09700CD653C /* JTtableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTtableViewCell.m; sourceTree = "<group>"; };
+		3CFE7E1F20DCC09700CD653C /* JTtableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JTtableViewCell.xib; sourceTree = "<group>"; };
+		3CFE7E2220DCC30500CD653C /* MusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		3CFE7E2320DCC30500CD653C /* MusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		3CFE7E2520DCE76600CD653C /* 多云.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "多云.png"; sourceTree = "<group>"; };
+		3CFE7E2620DCE76600CD653C /* 晴天.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "晴天.png"; sourceTree = "<group>"; };
+		3CFE7E2720DCE76600CD653C /* 大雨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大雨.png"; sourceTree = "<group>"; };
+		3CFE7E2820DCE76700CD653C /* 小雨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小雨.png"; sourceTree = "<group>"; };
+		3CFE7E2920DCE76700CD653C /* 阴天.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阴天.png"; sourceTree = "<group>"; };
+		3CFE7E2A20DCE76700CD653C /* 雷阵雨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雷阵雨.png"; sourceTree = "<group>"; };
+		3CFE7E3220DDE89600CD653C /* Babbling Brook.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Babbling Brook.mp3"; sourceTree = "<group>"; };
+		3CFE7E3420DDED4100CD653C /* DryLawn Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DryLawn Fire.mp3"; sourceTree = "<group>"; };
+		3CFE7E3520DDED4100CD653C /* Clear Chimes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Clear Chimes.mp3"; sourceTree = "<group>"; };
+		3CFE7E3620DDED4100CD653C /* Echo Chimes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Echo Chimes.mp3"; sourceTree = "<group>"; };
+		3CFE7E3720DDED4100CD653C /* Dusk Cicadas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dusk Cicadas.mp3"; sourceTree = "<group>"; };
+		3CFE7E3C20DDED4900CD653C /* Inside Train.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Inside Train.mp3"; sourceTree = "<group>"; };
+		3CFE7E3E20DDED5800CD653C /* Leisure Flute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Leisure Flute.mp3"; sourceTree = "<group>"; };
+		3CFE7E4020DDED8D00CD653C /* Low Tide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Low Tide.mp3"; sourceTree = "<group>"; };
+		3CFE7E4220DDED9500CD653C /* Park Bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Park Bird.mp3"; sourceTree = "<group>"; };
+		3CFE7E4420DDED9F00CD653C /* Slient Piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Slient Piano.mp3"; sourceTree = "<group>"; };
+		3CFE7E4620DDEDA600CD653C /* South Wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "South Wind.mp3"; sourceTree = "<group>"; };
+		3CFE7E4820DDEDAD00CD653C /* Spring Rainy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Spring Rainy.mp3"; sourceTree = "<group>"; };
+		3CFE7E4A20DDEDB600CD653C /* Thundering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Thundering.mp3; sourceTree = "<group>"; };
+		3CFE7E4C20DDEDCB00CD653C /* Valley Drip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Valley Drip.mp3"; sourceTree = "<group>"; };
+		3CFE7E4E20DDEDD300CD653C /* Village Night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Village Night.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +183,160 @@
 		3CFE7DA720DC9D6A00CD653C /* JT */ = {
 			isa = PBXGroup;
 			children = (
-				3CFE7DA820DC9D6A00CD653C /* AppDelegate.h */,
-				3CFE7DA920DC9D6B00CD653C /* AppDelegate.m */,
-				3CFE7DAB20DC9D6B00CD653C /* ViewController.h */,
-				3CFE7DAC20DC9D6B00CD653C /* ViewController.m */,
-				3CFE7DAE20DC9D6B00CD653C /* Main.storyboard */,
-				3CFE7DB120DC9D6C00CD653C /* Assets.xcassets */,
-				3CFE7DB320DC9D6C00CD653C /* LaunchScreen.storyboard */,
-				3CFE7DB620DC9D6C00CD653C /* Info.plist */,
-				3CFE7DB720DC9D6C00CD653C /* main.m */,
+				3CFE7DBE20DC9F3300CD653C /* AppDelegate */,
+				3CFE7DC220DC9F4100CD653C /* Main */,
+				3CFE7DCA20DC9F4A00CD653C /* Resource */,
 			);
 			path = JT;
+			sourceTree = "<group>";
+		};
+		3CFE7DBE20DC9F3300CD653C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7DBF20DC9F3300CD653C /* AppDelegate.h */,
+				3CFE7DC020DC9F3300CD653C /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3CFE7DC220DC9F4100CD653C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7DC320DC9F4100CD653C /* Home */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3CFE7DC320DC9F4100CD653C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7DC420DC9F4100CD653C /* Controller */,
+				3CFE7DC720DC9F4100CD653C /* Model */,
+				3CFE7DC820DC9F4100CD653C /* View */,
+				3CFE7DD120DCA06200CD653C /* Resource */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3CFE7DC420DC9F4100CD653C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7DC620DC9F4100CD653C /* ViewController.h */,
+				3CFE7DC520DC9F4100CD653C /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CFE7DC720DC9F4100CD653C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7E2220DCC30500CD653C /* MusicModel.h */,
+				3CFE7E2320DCC30500CD653C /* MusicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CFE7DC820DC9F4100CD653C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7E1D20DCC09700CD653C /* JTtableViewCell.h */,
+				3CFE7E1E20DCC09700CD653C /* JTtableViewCell.m */,
+				3CFE7E1F20DCC09700CD653C /* JTtableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CFE7DCA20DC9F4A00CD653C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7DCB20DC9F4A00CD653C /* Assets.xcassets */,
+				3CFE7DCC20DC9F4A00CD653C /* main.m */,
+				3CFE7DCD20DC9F4A00CD653C /* Info.plist */,
+				3CFE7DAE20DC9D6B00CD653C /* Main.storyboard */,
+				3CFE7DB320DC9D6C00CD653C /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3CFE7DD120DCA06200CD653C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7DD220DCA06200CD653C /* Image */,
+				3CFE7E3120DDE80700CD653C /* Music */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3CFE7DD220DCA06200CD653C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7DEF20DCA09700CD653C /* bg.jpg */,
+				3CFE7DF220DCA09700CD653C /* but_off.png */,
+				3CFE7DF420DCA09700CD653C /* but_on.png */,
+				3CFE7DD820DCA09500CD653C /* button_bg.png */,
+				3CFE7DDF20DCA09500CD653C /* button.png */,
+				3CFE7DE020DCA09500CD653C /* icon_黑白琴键.png */,
+				3CFE7DE920DCA09600CD653C /* icon_黑白琴键1.png */,
+				3CFE7DE220DCA09600CD653C /* icon_雷声大作.png */,
+				3CFE7DD920DCA09500CD653C /* icon_雷声大作1.png */,
+				3CFE7DF520DCA09700CD653C /* icon_林间清晨.png */,
+				3CFE7DEB20DCA09600CD653C /* icon_林间清晨1.png */,
+				3CFE7DE820DCA09600CD653C /* icon_流水潺潺.png */,
+				3CFE7DDA20DCA09500CD653C /* icon_流水潺潺1.png */,
+				3CFE7DF020DCA09700CD653C /* icon_落耳铃.png */,
+				3CFE7DD420DCA09500CD653C /* icon_落耳铃1.png */,
+				3CFE7DE420DCA09600CD653C /* icon_南风起.png */,
+				3CFE7DEE20DCA09700CD653C /* icon_南风起1.png */,
+				3CFE7DDB20DCA09500CD653C /* icon_拍岸潮汐.png */,
+				3CFE7DE120DCA09500CD653C /* icon_拍岸潮汐1.png */,
+				3CFE7DF620DCA09700CD653C /* icon_清脆风铃.png */,
+				3CFE7DD720DCA09500CD653C /* icon_清脆风铃1.png */,
+				3CFE7DEA20DCA09600CD653C /* icon_山间水滴.png */,
+				3CFE7DED20DCA09600CD653C /* icon_山间水滴1.png */,
+				3CFE7DD520DCA09500CD653C /* icon_丝丝蝉鸣.png */,
+				3CFE7DF120DCA09700CD653C /* icon_丝丝蝉鸣1.png */,
+				3CFE7DE620DCA09600CD653C /* icon_铁轨声.png */,
+				3CFE7DDD20DCA09500CD653C /* icon_铁轨声1.png */,
+				3CFE7DF720DCA09700CD653C /* icon_乡村夜色.png */,
+				3CFE7DEC20DCA09600CD653C /* icon_乡村夜色1.png */,
+				3CFE7DE320DCA09600CD653C /* icon_星火燎原.png */,
+				3CFE7DDC20DCA09500CD653C /* icon_星火燎原1.png */,
+				3CFE7DE520DCA09600CD653C /* icon_檐落春雨.png */,
+				3CFE7DDE20DCA09500CD653C /* icon_檐落春雨1.png */,
+				3CFE7DF320DCA09700CD653C /* icon_悠悠长笛.png */,
+				3CFE7DD620DCA09500CD653C /* icon_悠悠长笛1.png */,
+				3CFE7DE720DCA09600CD653C /* Layer0.png */,
+				3CFE7DD320DCA09500CD653C /* Layer1.png */,
+				3CFE7E2720DCE76600CD653C /* 大雨.png */,
+				3CFE7E2520DCE76600CD653C /* 多云.png */,
+				3CFE7E2A20DCE76700CD653C /* 雷阵雨.png */,
+				3CFE7E2620DCE76600CD653C /* 晴天.png */,
+				3CFE7E2820DCE76700CD653C /* 小雨.png */,
+				3CFE7E2920DCE76700CD653C /* 阴天.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		3CFE7E3120DDE80700CD653C /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7E3220DDE89600CD653C /* Babbling Brook.mp3 */,
+				3CFE7E3520DDED4100CD653C /* Clear Chimes.mp3 */,
+				3CFE7E3420DDED4100CD653C /* DryLawn Fire.mp3 */,
+				3CFE7E3720DDED4100CD653C /* Dusk Cicadas.mp3 */,
+				3CFE7E3620DDED4100CD653C /* Echo Chimes.mp3 */,
+				3CFE7E3C20DDED4900CD653C /* Inside Train.mp3 */,
+				3CFE7E3E20DDED5800CD653C /* Leisure Flute.mp3 */,
+				3CFE7E4020DDED8D00CD653C /* Low Tide.mp3 */,
+				3CFE7E4220DDED9500CD653C /* Park Bird.mp3 */,
+				3CFE7E4420DDED9F00CD653C /* Slient Piano.mp3 */,
+				3CFE7E4620DDEDA600CD653C /* South Wind.mp3 */,
+				3CFE7E4820DDEDAD00CD653C /* Spring Rainy.mp3 */,
+				3CFE7E4A20DDEDB600CD653C /* Thundering.mp3 */,
+				3CFE7E4C20DDEDCB00CD653C /* Valley Drip.mp3 */,
+				3CFE7E4E20DDEDD300CD653C /* Village Night.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +396,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFE7DF920DCA09800CD653C /* icon_落耳铃1.png in Resources */,
+				3CFE7E1220DCA09800CD653C /* icon_山间水滴1.png in Resources */,
+				3CFE7E1C20DCA09800CD653C /* icon_乡村夜色.png in Resources */,
+				3CFE7E1920DCA09800CD653C /* but_on.png in Resources */,
+				3CFE7E4F20DDEDD300CD653C /* Village Night.mp3 in Resources */,
+				3CFE7E3B20DDED4100CD653C /* Dusk Cicadas.mp3 in Resources */,
+				3CFE7E0220DCA09800CD653C /* icon_铁轨声1.png in Resources */,
+				3CFE7E1120DCA09800CD653C /* icon_乡村夜色1.png in Resources */,
+				3CFE7E0E20DCA09800CD653C /* icon_黑白琴键1.png in Resources */,
+				3CFE7E2120DCC09700CD653C /* JTtableViewCell.xib in Resources */,
+				3CFE7E3920DDED4100CD653C /* Clear Chimes.mp3 in Resources */,
+				3CFE7E4120DDED8D00CD653C /* Low Tide.mp3 in Resources */,
+				3CFE7DFA20DCA09800CD653C /* icon_丝丝蝉鸣.png in Resources */,
+				3CFE7E1520DCA09800CD653C /* icon_落耳铃.png in Resources */,
+				3CFE7E2E20DCE76700CD653C /* 小雨.png in Resources */,
+				3CFE7E4B20DDEDB600CD653C /* Thundering.mp3 in Resources */,
+				3CFE7E1720DCA09800CD653C /* but_off.png in Resources */,
+				3CFE7E0D20DCA09800CD653C /* icon_流水潺潺.png in Resources */,
+				3CFE7E0A20DCA09800CD653C /* icon_檐落春雨.png in Resources */,
+				3CFE7DD020DC9F4A00CD653C /* Info.plist in Resources */,
+				3CFE7E0320DCA09800CD653C /* icon_檐落春雨1.png in Resources */,
+				3CFE7E0920DCA09800CD653C /* icon_南风起.png in Resources */,
+				3CFE7E1A20DCA09800CD653C /* icon_林间清晨.png in Resources */,
 				3CFE7DB520DC9D6C00CD653C /* LaunchScreen.storyboard in Resources */,
-				3CFE7DB220DC9D6C00CD653C /* Assets.xcassets in Resources */,
+				3CFE7E0B20DCA09800CD653C /* icon_铁轨声.png in Resources */,
+				3CFE7E0C20DCA09800CD653C /* Layer0.png in Resources */,
+				3CFE7E2F20DCE76700CD653C /* 阴天.png in Resources */,
+				3CFE7E2D20DCE76700CD653C /* 大雨.png in Resources */,
+				3CFE7E0720DCA09800CD653C /* icon_雷声大作.png in Resources */,
+				3CFE7E3D20DDED4900CD653C /* Inside Train.mp3 in Resources */,
+				3CFE7E0F20DCA09800CD653C /* icon_山间水滴.png in Resources */,
+				3CFE7DFB20DCA09800CD653C /* icon_悠悠长笛1.png in Resources */,
+				3CFE7E2B20DCE76700CD653C /* 多云.png in Resources */,
+				3CFE7E1620DCA09800CD653C /* icon_丝丝蝉鸣1.png in Resources */,
+				3CFE7E0420DCA09800CD653C /* button.png in Resources */,
+				3CFE7E0020DCA09800CD653C /* icon_拍岸潮汐.png in Resources */,
+				3CFE7E3020DCE76700CD653C /* 雷阵雨.png in Resources */,
+				3CFE7E4720DDEDA600CD653C /* South Wind.mp3 in Resources */,
+				3CFE7E4920DDEDAD00CD653C /* Spring Rainy.mp3 in Resources */,
+				3CFE7E4320DDED9500CD653C /* Park Bird.mp3 in Resources */,
+				3CFE7DFC20DCA09800CD653C /* icon_清脆风铃1.png in Resources */,
+				3CFE7E0520DCA09800CD653C /* icon_黑白琴键.png in Resources */,
+				3CFE7E1320DCA09800CD653C /* icon_南风起1.png in Resources */,
+				3CFE7E2C20DCE76700CD653C /* 晴天.png in Resources */,
+				3CFE7E3320DDE89600CD653C /* Babbling Brook.mp3 in Resources */,
+				3CFE7E3A20DDED4100CD653C /* Echo Chimes.mp3 in Resources */,
+				3CFE7E4520DDED9F00CD653C /* Slient Piano.mp3 in Resources */,
+				3CFE7E0120DCA09800CD653C /* icon_星火燎原1.png in Resources */,
+				3CFE7DFD20DCA09800CD653C /* button_bg.png in Resources */,
+				3CFE7E1020DCA09800CD653C /* icon_林间清晨1.png in Resources */,
+				3CFE7E3820DDED4100CD653C /* DryLawn Fire.mp3 in Resources */,
+				3CFE7E0820DCA09800CD653C /* icon_星火燎原.png in Resources */,
+				3CFE7DCE20DC9F4A00CD653C /* Assets.xcassets in Resources */,
 				3CFE7DB020DC9D6B00CD653C /* Main.storyboard in Resources */,
+				3CFE7DF820DCA09800CD653C /* Layer1.png in Resources */,
+				3CFE7E1820DCA09800CD653C /* icon_悠悠长笛.png in Resources */,
+				3CFE7E0620DCA09800CD653C /* icon_拍岸潮汐1.png in Resources */,
+				3CFE7E1B20DCA09800CD653C /* icon_清脆风铃.png in Resources */,
+				3CFE7E3F20DDED5800CD653C /* Leisure Flute.mp3 in Resources */,
+				3CFE7DFE20DCA09800CD653C /* icon_雷声大作1.png in Resources */,
+				3CFE7E1420DCA09800CD653C /* bg.jpg in Resources */,
+				3CFE7DFF20DCA09800CD653C /* icon_流水潺潺1.png in Resources */,
+				3CFE7E4D20DDEDCC00CD653C /* Valley Drip.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +469,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CFE7DAD20DC9D6B00CD653C /* ViewController.m in Sources */,
-				3CFE7DB820DC9D6C00CD653C /* main.m in Sources */,
-				3CFE7DAA20DC9D6B00CD653C /* AppDelegate.m in Sources */,
+				3CFE7DC920DC9F4100CD653C /* ViewController.m in Sources */,
+				3CFE7E2020DCC09700CD653C /* JTtableViewCell.m in Sources */,
+				3CFE7DCF20DC9F4A00CD653C /* main.m in Sources */,
+				3CFE7E2420DCC30500CD653C /* MusicModel.m in Sources */,
+				3CFE7DC120DC9F3300CD653C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +615,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JNF86A6DCM;
-				INFOPLIST_FILE = JT/Info.plist;
+				INFOPLIST_FILE = "${SRCROOT}/JT/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +632,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JNF86A6DCM;
-				INFOPLIST_FILE = JT/Info.plist;
+				INFOPLIST_FILE = "${SRCROOT}/JT/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
