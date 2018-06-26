@@ -75,6 +75,10 @@
 		3CFE7E4B20DDEDB600CD653C /* Thundering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4A20DDEDB600CD653C /* Thundering.mp3 */; };
 		3CFE7E4D20DDEDCC00CD653C /* Valley Drip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4C20DDEDCB00CD653C /* Valley Drip.mp3 */; };
 		3CFE7E4F20DDEDD300CD653C /* Village Night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E4E20DDEDD300CD653C /* Village Night.mp3 */; };
+		3CFE7E5720E1CF5500CD653C /* RotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E5120E1CF5500CD653C /* RotateView.m */; };
+		3CFE7E5820E1CF5500CD653C /* 旋钮主体.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E5420E1CF5500CD653C /* 旋钮主体.png */; };
+		3CFE7E5920E1CF5500CD653C /* 旋钮背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E5520E1CF5500CD653C /* 旋钮背景.png */; };
+		3CFE7E5A20E1CF5500CD653C /* SDSilderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E5620E1CF5500CD653C /* SDSilderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,6 +155,12 @@
 		3CFE7E4A20DDEDB600CD653C /* Thundering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Thundering.mp3; sourceTree = "<group>"; };
 		3CFE7E4C20DDEDCB00CD653C /* Valley Drip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Valley Drip.mp3"; sourceTree = "<group>"; };
 		3CFE7E4E20DDEDD300CD653C /* Village Night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Village Night.mp3"; sourceTree = "<group>"; };
+		3CFE7E5120E1CF5500CD653C /* RotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateView.m; sourceTree = "<group>"; };
+		3CFE7E5220E1CF5500CD653C /* SDSilderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSilderView.h; sourceTree = "<group>"; };
+		3CFE7E5320E1CF5500CD653C /* RotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateView.h; sourceTree = "<group>"; };
+		3CFE7E5420E1CF5500CD653C /* 旋钮主体.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "旋钮主体.png"; sourceTree = "<group>"; };
+		3CFE7E5520E1CF5500CD653C /* 旋钮背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "旋钮背景.png"; sourceTree = "<group>"; };
+		3CFE7E5620E1CF5500CD653C /* SDSilderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSilderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +179,7 @@
 			children = (
 				3CFE7DA720DC9D6A00CD653C /* JT */,
 				3CFE7DA620DC9D6A00CD653C /* Products */,
+				3CFE7E5B20E21A3200CD653C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,6 +196,7 @@
 			children = (
 				3CFE7DBE20DC9F3300CD653C /* AppDelegate */,
 				3CFE7DC220DC9F4100CD653C /* Main */,
+				3CFE7E5020E1CF5500CD653C /* SDSilderView */,
 				3CFE7DCA20DC9F4A00CD653C /* Resource */,
 			);
 			path = JT;
@@ -339,6 +351,26 @@
 			path = Music;
 			sourceTree = "<group>";
 		};
+		3CFE7E5020E1CF5500CD653C /* SDSilderView */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7E5120E1CF5500CD653C /* RotateView.m */,
+				3CFE7E5220E1CF5500CD653C /* SDSilderView.h */,
+				3CFE7E5320E1CF5500CD653C /* RotateView.h */,
+				3CFE7E5420E1CF5500CD653C /* 旋钮主体.png */,
+				3CFE7E5520E1CF5500CD653C /* 旋钮背景.png */,
+				3CFE7E5620E1CF5500CD653C /* SDSilderView.m */,
+			);
+			path = SDSilderView;
+			sourceTree = "<group>";
+		};
+		3CFE7E5B20E21A3200CD653C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,6 +402,14 @@
 				TargetAttributes = {
 					3CFE7DA420DC9D6A00CD653C = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -398,6 +438,7 @@
 			files = (
 				3CFE7DF920DCA09800CD653C /* icon_落耳铃1.png in Resources */,
 				3CFE7E1220DCA09800CD653C /* icon_山间水滴1.png in Resources */,
+				3CFE7E5820E1CF5500CD653C /* 旋钮主体.png in Resources */,
 				3CFE7E1C20DCA09800CD653C /* icon_乡村夜色.png in Resources */,
 				3CFE7E1920DCA09800CD653C /* but_on.png in Resources */,
 				3CFE7E4F20DDEDD300CD653C /* Village Night.mp3 in Resources */,
@@ -447,6 +488,7 @@
 				3CFE7DFD20DCA09800CD653C /* button_bg.png in Resources */,
 				3CFE7E1020DCA09800CD653C /* icon_林间清晨1.png in Resources */,
 				3CFE7E3820DDED4100CD653C /* DryLawn Fire.mp3 in Resources */,
+				3CFE7E5920E1CF5500CD653C /* 旋钮背景.png in Resources */,
 				3CFE7E0820DCA09800CD653C /* icon_星火燎原.png in Resources */,
 				3CFE7DCE20DC9F4A00CD653C /* Assets.xcassets in Resources */,
 				3CFE7DB020DC9D6B00CD653C /* Main.storyboard in Resources */,
@@ -470,6 +512,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CFE7DC920DC9F4100CD653C /* ViewController.m in Sources */,
+				3CFE7E5A20E1CF5500CD653C /* SDSilderView.m in Sources */,
+				3CFE7E5720E1CF5500CD653C /* RotateView.m in Sources */,
 				3CFE7E2020DCC09700CD653C /* JTtableViewCell.m in Sources */,
 				3CFE7DCF20DC9F4A00CD653C /* main.m in Sources */,
 				3CFE7E2420DCC30500CD653C /* MusicModel.m in Sources */,

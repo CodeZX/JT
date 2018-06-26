@@ -21,69 +21,107 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BdJ-RI-IZL">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="B1b-Ki-yex">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="B1b-Ki-yex">
                                 <rect key="frame" x="244" y="0.0" width="131" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.34744336040265233" green="0.63380171209857528" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="NEI-bk-Eo9"/>
+                                </constraints>
                                 <sections/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="L3s-s7-XZC"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="f86-tn-hqY"/>
                                 </connections>
                             </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="多云.png" translatesAutoresizingMaskIntoConstraints="NO" id="o5d-gG-nky">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="多云.png" translatesAutoresizingMaskIntoConstraints="NO" id="o5d-gG-nky">
                                 <rect key="frame" x="32" y="41" width="65" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="Bup-Va-yik"/>
+                                    <constraint firstAttribute="height" constant="60" id="Yd8-p1-jVC"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="28 ℃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sda-ba-Xrm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28 ℃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sda-ba-Xrm">
                                 <rect key="frame" x="105" y="41" width="63" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="63" id="Mdl-hr-7hA"/>
+                                    <constraint firstAttribute="height" constant="31" id="xef-Ti-CTv"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.48627450980392156" green="0.78431372549019607" blue="0.72596571180555558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="多云" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpB-DL-NIY">
-                                <rect key="frame" x="105" y="70" width="48" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="多云" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpB-DL-NIY">
+                                <rect key="frame" x="105" y="70" width="55" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8q5-EC-1sN"/>
+                                    <constraint firstAttribute="width" constant="55" id="ibo-xr-qOc"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.48627450980392156" green="0.78431372549019607" blue="0.72618272569444442" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="KYy-Z2-1Pf">
-                                <rect key="frame" x="28" y="396" width="176" height="176"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="EOp-wo-Lgq">
-                                <rect key="frame" x="51" y="419" width="131" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="06/22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gcs-ad-5dY">
-                                <rect key="frame" x="21" y="109" width="161" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="06/22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gcs-ad-5dY">
+                                <rect key="frame" x="21" y="109" width="76.5" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="SPh-dq-jCe"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" red="0.48627450979999998" green="0.7843137255" blue="0.72618272569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DuR-bm-nVS">
+                                <rect key="frame" x="105" y="509" width="58" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="58" id="bvk-Rt-CWa"/>
+                                    <constraint firstAttribute="height" constant="58" id="zIy-5q-Mry"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="but_off.png"/>
+                                <state key="selected" image="but_on.png"/>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rkc-GB-Co6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BdJ-RI-IZL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3Hv-h4-Ulq"/>
                             <constraint firstItem="BdJ-RI-IZL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4hZ-Do-d90"/>
+                            <constraint firstItem="Gcs-ad-5dY" firstAttribute="top" secondItem="o5d-gG-nky" secondAttribute="bottom" constant="8" id="86S-Qe-qnj"/>
+                            <constraint firstItem="Gcs-ad-5dY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="8Xa-JE-Ix4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DuR-bm-nVS" secondAttribute="bottom" constant="100" id="8pA-Dd-p0h"/>
+                            <constraint firstItem="B1b-Ki-yex" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="91V-Qi-8EK"/>
+                            <constraint firstItem="sda-ba-Xrm" firstAttribute="leading" secondItem="o5d-gG-nky" secondAttribute="trailing" constant="8" id="JCY-K4-VxF"/>
+                            <constraint firstItem="o5d-gG-nky" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="JMm-bb-bfX"/>
+                            <constraint firstItem="DuR-bm-nVS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="JxQ-lu-Umt"/>
                             <constraint firstItem="BdJ-RI-IZL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QUc-tA-LyX"/>
+                            <constraint firstItem="EpB-DL-NIY" firstAttribute="top" secondItem="sda-ba-Xrm" secondAttribute="bottom" constant="-2" id="SKC-pf-XYE"/>
+                            <constraint firstItem="sda-ba-Xrm" firstAttribute="top" secondItem="o5d-gG-nky" secondAttribute="top" id="Spt-iG-g7Y"/>
+                            <constraint firstItem="B1b-Ki-yex" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="X8e-fA-ZrM"/>
+                            <constraint firstItem="EpB-DL-NIY" firstAttribute="leading" secondItem="o5d-gG-nky" secondAttribute="trailing" constant="8" id="dCZ-1w-HPk"/>
+                            <constraint firstItem="o5d-gG-nky" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="fwo-O2-rS2"/>
+                            <constraint firstItem="B1b-Ki-yex" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="j2j-gu-dlB"/>
                             <constraint firstItem="BdJ-RI-IZL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="m2S-WF-36x"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="Gcs-ad-5dY" id="FvC-a0-IhQ"/>
+                        <outlet property="tableView" destination="B1b-Ki-yex" id="v3j-QO-uCg"/>
+                        <outlet property="temphighLabel" destination="sda-ba-Xrm" id="FCw-kM-JSH"/>
+                        <outlet property="weatherImageView" destination="o5d-gG-nky" id="6MH-do-VCU"/>
+                        <outlet property="weatherLabel" destination="EpB-DL-NIY" id="Qo3-0G-FTu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+            <point key="canvasLocation" x="-1634.4000000000001" y="99.400299850074973"/>
         </scene>
     </scenes>
     <resources>
         <image name="bg.jpg" width="750" height="1334"/>
-        <image name="button.png" width="263" height="263"/>
-        <image name="button_bg.png" width="352" height="352"/>
+        <image name="but_off.png" width="117" height="117"/>
+        <image name="but_on.png" width="117" height="117"/>
         <image name="多云.png" width="150" height="150"/>
     </resources>
 </document>

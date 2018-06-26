@@ -19,6 +19,7 @@
     JTtableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (!cell) {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"JTtableViewCell" owner:nil options:nil] firstObject];
+        
     }
     return cell;
 }
