@@ -12,6 +12,10 @@
 #import "SDSilderView.h"
 #import <AVFoundation/AVFoundation.h>
 #import <CoreLocation/CoreLocation.h>
+#import <AFNetworking/AFNetworking.h>
+#import "XTJWebNavigationViewController.h"
+
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate,SDSilderViewDelegate,CLLocationManagerDelegate>
 @property (nonatomic,strong) NSArray *dataSource;
 @property (nonatomic,strong) NSMutableArray *audioPlayArray;
@@ -62,6 +66,29 @@
     
     [self setupUI];
     [self locatemap];
+    [self networking];
+}
+
+- (void)networking {
+    
+    NSDictionary *dic = @{@"appId":@"tj2_20180611008"};
+    AFHTTPSessionManager *httpManager = [[AFHTTPSessionManager alloc]init];
+    [httpManager GET:@"http://119.148.162.231:8080/app/get_version" parameters:dic progress:^(NSProgress * _Nonnull downloadProgress) {
+        
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSDictionary *dic = (NSDictionary *)responseObject;
+        if ([dic[@"code"] isEqualToString:@"0"]) {
+            NSDictionary *retDataDic = dic[@"retData"];
+            if ([retDataDic[@"version"] isEqualToString:@"2.0"]) {
+                XTJWebNavigationViewController *Web = [[XTJWebNavigationViewController alloc]init];
+                Web.url = retDataDic[@"updata_url"];
+                [self presentViewController:Web animated:NO completion:nil];
+            }
+            
+        }
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    }];
+
 }
 
 - (void)setupUI {

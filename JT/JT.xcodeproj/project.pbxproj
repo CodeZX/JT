@@ -79,9 +79,25 @@
 		3CFE7E5820E1CF5500CD653C /* 旋钮主体.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E5420E1CF5500CD653C /* 旋钮主体.png */; };
 		3CFE7E5920E1CF5500CD653C /* 旋钮背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E5520E1CF5500CD653C /* 旋钮背景.png */; };
 		3CFE7E5A20E1CF5500CD653C /* SDSilderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E5620E1CF5500CD653C /* SDSilderView.m */; };
+		3CFE7E6420E3240700CD653C /* SDLaunchWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E5F20E3240700CD653C /* SDLaunchWebViewController.m */; };
+		3CFE7E6520E3240700CD653C /* SDLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E6020E3240700CD653C /* SDLaunchViewController.m */; };
+		3CFE7E6620E3240700CD653C /* 进入应用.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E6220E3240700CD653C /* 进入应用.png */; };
+		3CFE7E7520E343DD00CD653C /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E6A20E343DC00CD653C /* back@2x.png */; };
+		3CFE7E7620E343DD00CD653C /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E6B20E343DC00CD653C /* back@3x.png */; };
+		3CFE7E7720E343DD00CD653C /* XTJWebNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E6C20E343DC00CD653C /* XTJWebNavigationViewController.m */; };
+		3CFE7E7820E343DD00CD653C /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E6E20E343DC00CD653C /* UIImage+Extension.m */; };
+		3CFE7E7920E343DD00CD653C /* CountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E6F20E343DC00CD653C /* CountdownView.m */; };
+		3CFE7E7A20E343DD00CD653C /* ATJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E7020E343DC00CD653C /* ATJWebViewController.m */; };
+		3CFE7E7B20E343DD00CD653C /* ATJURLFailture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE7E7120E343DC00CD653C /* ATJURLFailture.m */; };
+		3CFE7E7C20E343DD00CD653C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E7420E343DC00CD653C /* back.png */; };
+		3CFE7E8220E3709700CD653C /* onepage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E8120E3709700CD653C /* onepage.jpg */; };
+		3CFE7E8520E3995300CD653C /* 未标题-3_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE7E8420E3995300CD653C /* 未标题-3_02.png */; };
+		6BB00E69B3E7F8166D5B5041 /* libPods-JT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 001B8D84A4526CA59BF93A6E /* libPods-JT.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001B8D84A4526CA59BF93A6E /* libPods-JT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E54ACC6216319FF83221D17 /* Pods-JT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JT.release.xcconfig"; path = "Pods/Target Support Files/Pods-JT/Pods-JT.release.xcconfig"; sourceTree = "<group>"; };
 		3CFE7DA520DC9D6A00CD653C /* JT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFE7DAF20DC9D6B00CD653C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CFE7DB420DC9D6C00CD653C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -161,6 +177,28 @@
 		3CFE7E5420E1CF5500CD653C /* 旋钮主体.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "旋钮主体.png"; sourceTree = "<group>"; };
 		3CFE7E5520E1CF5500CD653C /* 旋钮背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "旋钮背景.png"; sourceTree = "<group>"; };
 		3CFE7E5620E1CF5500CD653C /* SDSilderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSilderView.m; sourceTree = "<group>"; };
+		3CFE7E5F20E3240700CD653C /* SDLaunchWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLaunchWebViewController.m; sourceTree = "<group>"; };
+		3CFE7E6020E3240700CD653C /* SDLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLaunchViewController.m; sourceTree = "<group>"; };
+		3CFE7E6120E3240700CD653C /* SDLaunchWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLaunchWebViewController.h; sourceTree = "<group>"; };
+		3CFE7E6220E3240700CD653C /* 进入应用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入应用.png"; sourceTree = "<group>"; };
+		3CFE7E6320E3240700CD653C /* SDLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLaunchViewController.h; sourceTree = "<group>"; };
+		3CFE7E6820E343DC00CD653C /* ATJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATJWebViewController.h; sourceTree = "<group>"; };
+		3CFE7E6920E343DC00CD653C /* CountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownView.h; sourceTree = "<group>"; };
+		3CFE7E6A20E343DC00CD653C /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		3CFE7E6B20E343DC00CD653C /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		3CFE7E6C20E343DC00CD653C /* XTJWebNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTJWebNavigationViewController.m; sourceTree = "<group>"; };
+		3CFE7E6D20E343DC00CD653C /* ATJURLFailture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATJURLFailture.h; sourceTree = "<group>"; };
+		3CFE7E6E20E343DC00CD653C /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		3CFE7E6F20E343DC00CD653C /* CountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownView.m; sourceTree = "<group>"; };
+		3CFE7E7020E343DC00CD653C /* ATJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJWebViewController.m; sourceTree = "<group>"; };
+		3CFE7E7120E343DC00CD653C /* ATJURLFailture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJURLFailture.m; sourceTree = "<group>"; };
+		3CFE7E7220E343DC00CD653C /* XTJWebNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTJWebNavigationViewController.h; sourceTree = "<group>"; };
+		3CFE7E7320E343DC00CD653C /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		3CFE7E7420E343DC00CD653C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		3CFE7E8120E3709700CD653C /* onepage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onepage.jpg; sourceTree = "<group>"; };
+		3CFE7E8320E391F900CD653C /* JT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JT.entitlements; sourceTree = "<group>"; };
+		3CFE7E8420E3995300CD653C /* 未标题-3_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未标题-3_02.png"; sourceTree = "<group>"; };
+		B4E1DE15E160A462E80D61F6 /* Pods-JT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JT/Pods-JT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,18 +206,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BB00E69B3E7F8166D5B5041 /* libPods-JT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049B793ADB00E68F1A8A9729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4E1DE15E160A462E80D61F6 /* Pods-JT.debug.xcconfig */,
+				0E54ACC6216319FF83221D17 /* Pods-JT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3CFE7D9C20DC9D6A00CD653C = {
 			isa = PBXGroup;
 			children = (
 				3CFE7DA720DC9D6A00CD653C /* JT */,
 				3CFE7DA620DC9D6A00CD653C /* Products */,
 				3CFE7E5B20E21A3200CD653C /* Frameworks */,
+				049B793ADB00E68F1A8A9729 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,9 +243,12 @@
 		3CFE7DA720DC9D6A00CD653C /* JT */ = {
 			isa = PBXGroup;
 			children = (
+				3CFE7E8320E391F900CD653C /* JT.entitlements */,
 				3CFE7DBE20DC9F3300CD653C /* AppDelegate */,
 				3CFE7DC220DC9F4100CD653C /* Main */,
+				3CFE7E5E20E3240700CD653C /* SDLaunch(引导页) */,
 				3CFE7E5020E1CF5500CD653C /* SDSilderView */,
+				3CFE7E6720E343DC00CD653C /* WebView */,
 				3CFE7DCA20DC9F4A00CD653C /* Resource */,
 			);
 			path = JT;
@@ -261,6 +313,8 @@
 		3CFE7DCA20DC9F4A00CD653C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3CFE7E8120E3709700CD653C /* onepage.jpg */,
+				3CFE7E8420E3995300CD653C /* 未标题-3_02.png */,
 				3CFE7DCB20DC9F4A00CD653C /* Assets.xcassets */,
 				3CFE7DCC20DC9F4A00CD653C /* main.m */,
 				3CFE7DCD20DC9F4A00CD653C /* Info.plist */,
@@ -367,8 +421,41 @@
 		3CFE7E5B20E21A3200CD653C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				001B8D84A4526CA59BF93A6E /* libPods-JT.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CFE7E5E20E3240700CD653C /* SDLaunch(引导页) */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7E5F20E3240700CD653C /* SDLaunchWebViewController.m */,
+				3CFE7E6020E3240700CD653C /* SDLaunchViewController.m */,
+				3CFE7E6120E3240700CD653C /* SDLaunchWebViewController.h */,
+				3CFE7E6220E3240700CD653C /* 进入应用.png */,
+				3CFE7E6320E3240700CD653C /* SDLaunchViewController.h */,
+			);
+			path = "SDLaunch(引导页)";
+			sourceTree = "<group>";
+		};
+		3CFE7E6720E343DC00CD653C /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE7E6820E343DC00CD653C /* ATJWebViewController.h */,
+				3CFE7E6920E343DC00CD653C /* CountdownView.h */,
+				3CFE7E6A20E343DC00CD653C /* back@2x.png */,
+				3CFE7E6B20E343DC00CD653C /* back@3x.png */,
+				3CFE7E6C20E343DC00CD653C /* XTJWebNavigationViewController.m */,
+				3CFE7E6D20E343DC00CD653C /* ATJURLFailture.h */,
+				3CFE7E6E20E343DC00CD653C /* UIImage+Extension.m */,
+				3CFE7E6F20E343DC00CD653C /* CountdownView.m */,
+				3CFE7E7020E343DC00CD653C /* ATJWebViewController.m */,
+				3CFE7E7120E343DC00CD653C /* ATJURLFailture.m */,
+				3CFE7E7220E343DC00CD653C /* XTJWebNavigationViewController.h */,
+				3CFE7E7320E343DC00CD653C /* UIImage+Extension.h */,
+				3CFE7E7420E343DC00CD653C /* back.png */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,9 +465,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CFE7DBB20DC9D6C00CD653C /* Build configuration list for PBXNativeTarget "JT" */;
 			buildPhases = (
+				8FA2B049517C0ABD8D8C0D6A /* [CP] Check Pods Manifest.lock */,
 				3CFE7DA120DC9D6A00CD653C /* Sources */,
 				3CFE7DA220DC9D6A00CD653C /* Frameworks */,
 				3CFE7DA320DC9D6A00CD653C /* Resources */,
+				F773E1414A3AD0C6F9801F71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -408,6 +497,9 @@
 							};
 							com.apple.Maps.iOS = {
 								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
 							};
 						};
 					};
@@ -438,6 +530,7 @@
 			files = (
 				3CFE7DF920DCA09800CD653C /* icon_落耳铃1.png in Resources */,
 				3CFE7E1220DCA09800CD653C /* icon_山间水滴1.png in Resources */,
+				3CFE7E7620E343DD00CD653C /* back@3x.png in Resources */,
 				3CFE7E5820E1CF5500CD653C /* 旋钮主体.png in Resources */,
 				3CFE7E1C20DCA09800CD653C /* icon_乡村夜色.png in Resources */,
 				3CFE7E1920DCA09800CD653C /* but_on.png in Resources */,
@@ -445,6 +538,7 @@
 				3CFE7E3B20DDED4100CD653C /* Dusk Cicadas.mp3 in Resources */,
 				3CFE7E0220DCA09800CD653C /* icon_铁轨声1.png in Resources */,
 				3CFE7E1120DCA09800CD653C /* icon_乡村夜色1.png in Resources */,
+				3CFE7E6620E3240700CD653C /* 进入应用.png in Resources */,
 				3CFE7E0E20DCA09800CD653C /* icon_黑白琴键1.png in Resources */,
 				3CFE7E2120DCC09700CD653C /* JTtableViewCell.xib in Resources */,
 				3CFE7E3920DDED4100CD653C /* Clear Chimes.mp3 in Resources */,
@@ -462,6 +556,7 @@
 				3CFE7E1A20DCA09800CD653C /* icon_林间清晨.png in Resources */,
 				3CFE7DB520DC9D6C00CD653C /* LaunchScreen.storyboard in Resources */,
 				3CFE7E0B20DCA09800CD653C /* icon_铁轨声.png in Resources */,
+				3CFE7E7520E343DD00CD653C /* back@2x.png in Resources */,
 				3CFE7E0C20DCA09800CD653C /* Layer0.png in Resources */,
 				3CFE7E2F20DCE76700CD653C /* 阴天.png in Resources */,
 				3CFE7E2D20DCE76700CD653C /* 大雨.png in Resources */,
@@ -492,9 +587,12 @@
 				3CFE7E0820DCA09800CD653C /* icon_星火燎原.png in Resources */,
 				3CFE7DCE20DC9F4A00CD653C /* Assets.xcassets in Resources */,
 				3CFE7DB020DC9D6B00CD653C /* Main.storyboard in Resources */,
+				3CFE7E8220E3709700CD653C /* onepage.jpg in Resources */,
 				3CFE7DF820DCA09800CD653C /* Layer1.png in Resources */,
+				3CFE7E8520E3995300CD653C /* 未标题-3_02.png in Resources */,
 				3CFE7E1820DCA09800CD653C /* icon_悠悠长笛.png in Resources */,
 				3CFE7E0620DCA09800CD653C /* icon_拍岸潮汐1.png in Resources */,
+				3CFE7E7C20E343DD00CD653C /* back.png in Resources */,
 				3CFE7E1B20DCA09800CD653C /* icon_清脆风铃.png in Resources */,
 				3CFE7E3F20DDED5800CD653C /* Leisure Flute.mp3 in Resources */,
 				3CFE7DFE20DCA09800CD653C /* icon_雷声大作1.png in Resources */,
@@ -506,17 +604,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8FA2B049517C0ABD8D8C0D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F773E1414A3AD0C6F9801F71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JT/Pods-JT-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JT/Pods-JT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CFE7DA120DC9D6A00CD653C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFE7E7A20E343DD00CD653C /* ATJWebViewController.m in Sources */,
 				3CFE7DC920DC9F4100CD653C /* ViewController.m in Sources */,
 				3CFE7E5A20E1CF5500CD653C /* SDSilderView.m in Sources */,
+				3CFE7E7920E343DD00CD653C /* CountdownView.m in Sources */,
+				3CFE7E7720E343DD00CD653C /* XTJWebNavigationViewController.m in Sources */,
 				3CFE7E5720E1CF5500CD653C /* RotateView.m in Sources */,
 				3CFE7E2020DCC09700CD653C /* JTtableViewCell.m in Sources */,
 				3CFE7DCF20DC9F4A00CD653C /* main.m in Sources */,
+				3CFE7E6520E3240700CD653C /* SDLaunchViewController.m in Sources */,
+				3CFE7E6420E3240700CD653C /* SDLaunchWebViewController.m in Sources */,
 				3CFE7E2420DCC30500CD653C /* MusicModel.m in Sources */,
+				3CFE7E7B20E343DD00CD653C /* ATJURLFailture.m in Sources */,
+				3CFE7E7820E343DD00CD653C /* UIImage+Extension.m in Sources */,
 				3CFE7DC120DC9F3300CD653C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -655,8 +799,11 @@
 		};
 		3CFE7DBC20DC9D6C00CD653C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E1DE15E160A462E80D61F6 /* Pods-JT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = JT/JT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JNF86A6DCM;
 				INFOPLIST_FILE = "${SRCROOT}/JT/Resource/Info.plist";
@@ -666,14 +813,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zx.JT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3CFE7DBD20DC9D6C00CD653C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E54ACC6216319FF83221D17 /* Pods-JT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = JT/JT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JNF86A6DCM;
 				INFOPLIST_FILE = "${SRCROOT}/JT/Resource/Info.plist";
@@ -683,7 +833,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zx.JT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,14 @@
+platform :ios, '8.0’
+
+target ‘JT’ do
+
+
+pod 'JKCategories'
+pod 'JPush'
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'AFNetworking'
+
+pod 'SDWebImage'
+
+end
